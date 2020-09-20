@@ -5,10 +5,17 @@ class Main {
     final double TAX_RATE = 0.015;
     final String COMPANY = "ABC Manufacturing";
 
+    double hours = 25;
+    double yourHoursWorked = 37.5;
+
     System.out.println("Hello world! " + COMPANY);
     System.out.println(COMPANY);
 
     System.out.println("Calling method from another class...");
     ParadiseInfo.displayInfo();
+
+    DemoGrossPay.calculateGross(5);
+    DemoGrossPay.calculateGross(hours);
+    DemoGrossPay.calculateGross(yourHoursWorked);
   }
 }
