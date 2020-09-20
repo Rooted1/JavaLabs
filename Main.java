@@ -12,7 +12,12 @@ class Main {
     System.out.println(COMPANY);
 
     System.out.println("Calling method from another class...");
+
+    System.out.println(" ");
+    
     ParadiseInfo.displayInfo();
+
+    System.out.println(" ");
 
     DemoGrossPay.calculateGross(5);
     DemoGrossPay.calculateGross(hours);
