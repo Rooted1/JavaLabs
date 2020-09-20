@@ -7,5 +7,8 @@ class Main {
 
     System.out.println("Hello world! " + COMPANY);
     System.out.println(COMPANY);
+
+    System.out.println("Calling method from another class...");
+    ParadiseInfo.displayInfo();
   }
 }
