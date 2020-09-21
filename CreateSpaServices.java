@@ -18,14 +18,14 @@ public class CreateSpaServices {
     firstService.setServiceDescription(service);
     firstService.setPrice(price);
 
-    input.nextLine();
+    // input.nextLine();
 
-    System.out.println("Enter second service >> ");
-    service = input.nextLine();
-    System.out.println("Enter price of second service >> ");
-    price = input.nextDouble(); 
-    secondService.setServiceDescription(service);
-    secondService.setPrice(price);
+    // System.out.println("Enter second service >> ");
+    // service = input.nextLine();
+    // System.out.println("Enter price of second service >> ");
+    // price = input.nextDouble(); 
+    // secondService.setServiceDescription(service);
+    // secondService.setPrice(price);
 
     System.out.println("First service details: ");
     System.out.println(firstService.getServiceDescription() + " $" + firstService.getPrice());
