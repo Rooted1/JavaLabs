@@ -22,5 +22,9 @@ class Main {
     DemoGrossPay.calculateGross(5);
     DemoGrossPay.calculateGross(hours);
     DemoGrossPay.calculateGross(yourHoursWorked);
+
+    System.out.println(" ");
+
+    CreateSpaServices.displaySpaInfo();
   }
 }
