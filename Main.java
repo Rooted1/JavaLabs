@@ -49,5 +49,12 @@ class Main {
     }
 
     System.out.println("At the end x is " + x);
+
+    System.out.println(" ");
+
+    int month = 6, day = 24, year = 2019;
+    DemoOverload.displayDate(month);
+    DemoOverload.displayDate(month, day);
+    DemoOverload.displayDate(month, day, year);
   }
 }
